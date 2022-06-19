@@ -1,0 +1,303 @@
+﻿body {
+    direction: rtl;
+    font-family: 'Segoe UI';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 170px;
+}
+
+#logo {
+    width: 10%;
+    height: auto;
+    display: inline-block;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.bigNav {
+    display: inline-block;
+    position: absolute;
+    align-items: center;
+}
+
+.bigNav > ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.up {
+    display: inline-block;
+    width: 220px;
+}
+
+    .bigNav > ul > li  a {
+        margin-top: 20px;
+    }
+
+.bigNav .up >a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.7vw;
+    font-weight: lighter;
+}
+
+    .bigNav .up > a:hover {
+        font-weight: bold;
+        font-size: 1.85vw;
+        color: black;
+        text-align: center;
+    }
+
+.up > ul {
+    display: none;
+    position: absolute;
+}
+
+.smalli > a {
+    display: block;
+    color: black;
+    float: none;
+    font-size: 1.3vw;
+    text-decoration: none;
+    margin-top: 0.5px;
+    
+}
+
+    .smalli > a:hover {
+        display: block;
+        color: black;
+        float: none;
+        font-size: 1.3vw;
+        text-decoration: none;
+        background-color: antiquewhite;
+       
+    }
+.up:hover ul {
+    display: block;
+    width: 120px;
+}
+
+.bread ol li {
+    display: inline-block;
+}
+
+.bread a {
+    text-decoration: none;
+    color: black;
+}
+
+.bread ol li:after {
+    content: ">"
+}
+
+.bread ol li:last-child:after {
+    content: ""
+}
+
+
+.pdog {
+    margin-top: 75px;
+    background-image: url('../images/dogis.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#s1 {
+    margin-right: 200px;
+    font-size: 1.7vw;
+    margin-top: 80px;
+}
+
+#s2 {
+    margin-right: 600px;
+    margin-top: 100px;
+    font-size: 4vw;
+}
+
+#s3 {
+    margin-right: 550px;
+    font-size: 2vw;
+    margin-top: 100px;
+}
+
+.how {
+    border: 8px solid #D5E5F4;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+    .how img {
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+
+    .how a {
+        font-size: 1.7vw;
+        text-decoration: none;
+        margin-bottom: 20px;
+        color: black;
+    }
+
+#s4 {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+#s5 {
+    display: inline-block;
+    margin-right: 180px;
+}
+
+#s6 {
+    display: inline-block;
+    margin-right: 190px;
+}
+
+footer {
+    margin-right: 500px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+    footer >a {
+        font-size: 1.2vw;
+        text-decoration: none;
+        color: black;
+    }
+
+    footer img {
+        width: 30px;
+        height: 30px;
+    }
+
+
+h1 {
+    margin-right: 400px;
+    margin-top: 60px;
+}
+
+#boy {
+    margin-right: 400px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+    #boy ul {
+        border: 8px solid #D5E5F4;
+        border-radius: 8px;
+        width: 70px;
+    }
+
+        #boy ul li {
+            text-align: right;
+            font-size: 1.4vw;
+        }
+
+#girl {
+    margin-right: 100px;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+    #girl ul {
+        border: 8px solid #F4D5EF;
+        border-radius: 8px;
+        width: 70px;
+    }
+
+        #girl ul li {
+            text-align: right;
+            font-size: 1.4vw;
+        }
+
+.sec1 {
+    margin-bottom: 20px;
+}
+
+#green {
+    display: inline-block;
+    border: 8px solid #D3F9DF;
+    border-radius: 8px;
+    margin-right: 400px;
+    width: 150px;
+}
+
+#yellow {
+    display: inline-block;
+    border: 8px solid #F4F4B9;
+    border-radius: 8px;
+    width: 150px;
+    margin-right: 100px;
+}
+
+#orang {
+    display: inline-block;
+    border: 8px solid #F3DAAA;
+    border-radius: 8px;
+    width: 150px;
+    margin-right: 400px;
+}
+
+#red {
+    display: inline-block;
+    border: 8px solid #FD8B8B;
+    border-radius: 8px;
+    width: 150px;
+    margin-right: 100px;
+}
+h3{
+    margin-right:100px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+.container {
+    padding: 20px;
+}
+.odot p, .dogs{
+    margin-right:200px;
+}
+th, td{
+    color:#767676;
+    text-align:center;
+    padding:15px;
+}
+.table a{
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    }
+.table{
+    margin-right:100px;
+}
